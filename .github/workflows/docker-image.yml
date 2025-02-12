@@ -40,7 +40,7 @@ jobs:
         file: ./Dockerfile
         push: true
         tags: |
-          vinlic/metaso-free-api:${{ steps.tag_name.outputs.tag }}
-          vinlic/metaso-free-api:latest
+          wweioo/metaso-free-api:${{ steps.tag_name.outputs.tag }}
+          wweioo/metaso-free-api:latest
         platforms: linux/amd64,linux/arm64
         build-args: TARGETPLATFORM=${{ matrix.platform }}
